@@ -4,11 +4,20 @@
 }
 
 /* relative position styles */
- 
+/*
 #ring{
     position: relative;
-    left: 50px;
-    top: 30px;
+    left: 30px;
+    top: 40px;
+    top: -40px;
+}
+*/
+
+/* absolute position */
+
+#ring{
+    position: absolute;
+    left: 30px;
     top: -40px;
 }
 
