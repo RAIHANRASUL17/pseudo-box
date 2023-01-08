@@ -3,3 +3,12 @@
     width: 200px;
 }
 
+/* relative position styles */
+ 
+#ring{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    top: -40px;
+}
+
