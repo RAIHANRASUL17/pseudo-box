@@ -1,3 +1,20 @@
+/* styles nav */
 nav{
     color: red;
 }
+    /* using hover pseudo */
+    nav:hover{
+        color:skyblue;
+        background-color:seagreen;
+        font-size: 30px;
+    }
+/* using focus pseudo on input tag with middle-person class */
+.middle-person:focus{
+    color:red;
+}
+
+/* using visited pseudo on anchor tag */
+a:visited{
+    color:red;
+}
+
