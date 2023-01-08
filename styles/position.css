@@ -14,10 +14,31 @@
 */
 
 /* absolute position */
-
+/*
 #ring{
     position: absolute;
     left: 30px;
     top: -40px;
 }
+*/
 
+/* cll: ring's parent */
+.swimming {
+    position: relative;
+    left: 40px;
+    top: -30px;
+}
+
+/* sticky position */
+#ring {
+    position: sticky;
+    left: 50px;
+    top: -50px;
+}
+
+.dummy {
+    height: 150px;
+    width: 250px;
+    background-color: pink;
+    /* top: 100px; */
+}
